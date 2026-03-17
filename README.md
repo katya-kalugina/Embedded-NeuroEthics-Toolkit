@@ -1,4 +1,4 @@
-# Embedded-NeuroEthics-Toolkit
+## Embedded-NeuroEthics-Toolkit
 
 ![Status](https://img.shields.io/badge/Status-Work_in_Progress-orange)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
