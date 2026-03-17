@@ -21,17 +21,17 @@ As Foundation Models are increasingly used to decode brain signals (e.g., EEG-to
 
 The toolkit consists of Python-based modules designed for AI auditors, DPOs, and BCI developers to evaluate NeuroAI systems:
 
-### 1. `AI_Act_BCI_Classifier`
+#### 1. `AI_Act_BCI_Classifier`
 An automated decision-tree module to classify BCI systems under the EU AI Act.
 * Evaluates whether non-medical "mind-reading" operations fall under *High-Risk* or *Prohibited* AI practices.
 * Identifies regulatory gaps when the BCI hardware manufacturer did not train the underlying foundation model used for signal decoding.
 
-### 2. `Hallucination_Liability_Scorer`
+#### 2. `Hallucination_Liability_Scorer`
 A risk assessment calculator for foundation models used in neuro-decoding.
 * Compares the model's confidence scores against the UI/UX presentation.
 * Flags "Lie by Design" scenarios where low-confidence decoded signals are presented as absolute user intent, defining thresholds for product liability.
 
-### 3. `Mental_Privacy_Validator`
+#### 3. `Mental_Privacy_Validator`
 A data minimization and privacy impact assessment tool.
 * Measures the ratio of collected raw neural data vs. required features for the specific task.
 * Quantifies "algorithmic shadows" and outputs a `Privacy_Defect_Score`.
@@ -42,7 +42,7 @@ This toolkit is the practical implementation of the theoretical frameworks devel
 * *Lie by Design: AI Hallucinations as the Product Liability Gap.* (Working Paper).
 * *Mental Privacy Violations as Product Defects in AI Systems.* (Working Paper).
 
-# Roadmap
+### Roadmap
 - [x] Conceptual framework design
 - [ ] Release `AI_Act_BCI_Classifier` beta script
 - [ ] Release `Mental_Privacy_Validator` metrics logic
