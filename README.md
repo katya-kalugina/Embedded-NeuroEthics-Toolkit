@@ -47,3 +47,15 @@ This toolkit is the practical implementation of the theoretical frameworks devel
 - [ ] Release `AI_Act_BCI_Classifier` beta script
 - [ ] Release `Mental_Privacy_Validator` metrics logic
 - [ ] Integration with ISO 42001 and NIST AI RMF guidelines for BCI
+
+---
+
+![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
+
+<small>
+Copyright (c) 2024-2026 Ekaterina Kalugina.
+
+The content of this repository are licensed under the [CC BY-NC-SA 4.0](./LICENSE) license. 
+<small>
+
+
